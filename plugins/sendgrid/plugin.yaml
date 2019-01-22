@@ -17,7 +17,7 @@ envs:
     description: API key from SendGrid
   - name: SENDGRID_MAIL
     type: required
-    description: mail where the letter will be sent, you can use comma divider to send on multiple mails (ex.: mail1@example.com, mail2@exmaple.com)
+    description: 'mail where the letter will be sent, you can use comma divider to send on multiple mails (ex.: mail1@example.com, mail2@exmaple.com)'
   - name: SENDGRID_FROM
     type: required
     description: from header of mail
