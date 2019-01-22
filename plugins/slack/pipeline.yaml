@@ -1,0 +1,8 @@
+  SendToSlack:
+    title: Sending message to slack
+    image: codefresh/slack-message-sender
+    commands:
+      - slack-message-sender send
+    environment:
+    - WEBHOOK_URL=${{SLACK_WEBHOOK_URL}}
+    - SLACK_MESSAGE=${{CF_COMMIT_MESSAGE}}
