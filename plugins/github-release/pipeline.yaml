@@ -1,0 +1,6 @@
+github_prerelease:
+        image: codefresh/cfstep-github-release
+        environment:
+          - GITHUB_TOKEN=${{GITHUB_TOKEN}}
+          - FILES=bin/app-*
+          - PRERELEASE=true
