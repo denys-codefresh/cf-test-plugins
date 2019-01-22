@@ -22,11 +22,11 @@ envs:
     type: optional 
   - name: MINOR   
     type: optional
-    description: Boolean; combination with TL_UPLOAD stores Twistlock Report URL in TL_REPORT_URL var for Codefresh metadata annotation
+    description: 'Boolean; combination with TL_UPLOAD stores Twistlock Report URL in TL_REPORT_URL var for Codefresh metadata annotation'
   - name: PATCH   
     type: optional
-    description: Boolean; combination with TL_UPLOAD stores Twistlock Report URL in TL_REPORT_URL var for Codefresh metadata annotation
+    description: 'Boolean; combination with TL_UPLOAD stores Twistlock Report URL in TL_REPORT_URL var for Codefresh metadata annotation'
   - name: BUILD_NUM   
-      type: optional
-      description: Boolean; combination with TL_UPLOAD stores Twistlock Report URL in TL_REPORT_URL var for Codefresh metadata annotation
+    type: optional
+    description: 'Boolean; combination with TL_UPLOAD stores Twistlock Report URL in TL_REPORT_URL var for Codefresh metadata annotation'
   
