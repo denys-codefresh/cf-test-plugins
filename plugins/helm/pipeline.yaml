@@ -1,0 +1,4 @@
+Helm Upgrade:
+    image: 'codefresh/cfstep-helm:2.9.0'
+    environment:
+      - key=value
