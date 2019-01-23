@@ -1,6 +1,6 @@
   updateSubmodules:
     image: codefresh/cfstep-gitsubmodules
     environment:
-      - GITHUB_TOKEN=<github_token>
-      - CF_SUBMODULE_SYNC=<boolean to determine if modules should be synced>
-      - CF_SUBMODULE_UPDATE_RECURSIVE=<boolean to determine if modules should be recursively updated>
+      - GITHUB_TOKEN='<github_token>'
+      - CF_SUBMODULE_SYNC='<boolean to determine if modules should be synced>'
+      - CF_SUBMODULE_UPDATE_RECURSIVE='<boolean to determine if modules should be recursively updated>'

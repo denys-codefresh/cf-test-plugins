@@ -1,7 +1,7 @@
   clone_repo_via_ssh:
-    image: codefresh/cfstep-gitclonerssh
+    image: 'codefresh/cfstep-gitclonerssh'
     environment:
-      - REMOTE_URL=git@github.com:my-user/my-repo.git
+      - REMOTE_URL='git@github.com:my-user/my-repo.git'
       - BRANCH=my-branch
       - SSH_KEY=${{SSH_KEY}}
       - SPLIT_CHAR=${{SPLIT_CHAR}}

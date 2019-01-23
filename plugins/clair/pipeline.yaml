@@ -1,0 +1,4 @@
+scan:
+    image: 'codefresh/klar:master'
+    commands:
+      - /klar codefresh/helm:2.8.1
