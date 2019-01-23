@@ -5,4 +5,4 @@
       - BRANCH=my-branch
       - SSH_KEY=${{SSH_KEY}}
       - SPLIT_CHAR=${{SPLIT_CHAR}}
-      - CLONE_PATH=/codefresh/volume 
+      - CLONE_PATH='/codefresh/volume' 
