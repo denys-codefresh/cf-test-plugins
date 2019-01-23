@@ -1,2 +1,1 @@
-[![Codefresh build status]( https://g.codefresh.io/api/badges/pipeline/soluto/Soluto%2Ftweek%2Ftweek-all?type=cf-1)]( https://g.codefresh.io/public/accounts/soluto/pipelines/Soluto/tweek/tweek-all)
-[![Codefresh build status]( https://g.codefresh.io/api/badges/pipeline/soluto/Soluto-Private%2Fdh-messaging-analytics%2Fdh-messaging-analytics?branch=master&key=eyJhbGciOiJIUzI1NiJ9.NTkwOTg1MmQ2ZDAxYjcwMDA2Yjc1ODBm.fODYFsnTAGVNVeEAA6lI0g-sTAfHjh5B9BWrOtDvSSE&type=cf-1)]( https://g.codefresh.io/pipelines/dh-messaging-analytics/builds?repoOwner=Soluto-Private&repoName=dh-messaging-analytics&serviceName=Soluto-Private%2Fdh-messaging-analytics&filter=trigger:build~Build;branch:master;pipeline:5c371059c67fe452918c9d48~dh-messaging-analytics)
+
