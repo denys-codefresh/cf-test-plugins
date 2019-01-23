@@ -1,0 +1,17 @@
+  TLScan:
+    title: Twistlock Scan
+    image: codefresh/cfstep-twistlock
+    environment:
+      - TL_REGISTRY=https://r.cf-cd.com
+      - TL_IMAGE_NAME=francisco-codefresh/franciscocodefresh/twistlockdemo
+      - TL_IMAGE_TAG=${{CF_SHORT_REVISION}}
+    on_success:
+      metadata:
+        set:
+          - ${{BuildingDockerImage.imageId}}:
+            - SECURITY_SCAN: true
+    on_fail: 
+      metadata: 
+        set: 
+          - ${{BuildingDockerImage.imageId}}: 
+            - SECURITY_SCAN: false     
